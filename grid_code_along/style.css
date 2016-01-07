@@ -1,0 +1,19 @@
+/*.container {
+overflow: hidden
+}
+*/
+.col-6 {
+  border: 1px black solid;
+  width: 50%;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-3 {
+  border: 2px dotted red;
+  width: 33.33%;
+  height:100px;
+  float: left;
+  box-sizing: border-box;
+}
