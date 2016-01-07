@@ -51,11 +51,16 @@ h1 {
 
 h1 a {
 color: #C12;
+text-decoration: none;
 }
 
 h2 {
 font size: 22px;
 display: inline-block;
+}
+
+h2 a {
+text-decoration: none;
 }
 
 h3 {
@@ -96,7 +101,8 @@ font-size: 14px;
 
 .right ul li a {
 	color: #C12;
-  font-size: 10pt;
+  font-size: 11pt;
+  text-decoration: none;
 }
 footer {
 	clear: both;
