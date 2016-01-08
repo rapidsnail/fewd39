@@ -4,6 +4,7 @@ body {
   font-family: Lato, "Helvetica", sans-serif;
   width: 85%;
   margin: 0px, auto, 0px, auto;
+  max-width: 1000px;
 }
 
 a {
@@ -82,11 +83,22 @@ font-weight: bold;
 color: #c12;
 float: right;
 clear: both;
+text-decoration: none;
 }
 
 p {
 font-size: 14px;
 }
+
+.Bigtype {
+	font-size: 5em;
+	line-height: 1;
+	color: #999;
+	margin: -.1em .1em 0 -.1em;
+	vertical-align: text-bottom;
+	float: left;
+}
+
 
 .left {
 	float: left;
@@ -94,8 +106,8 @@ font-size: 14px;
 }
 .right {
 	float: right;
-	width: 30%;
-	padding-right: 3%;
+	width: 35%;
+
 }
 
 
@@ -111,8 +123,4 @@ footer {
 }
 footer nav a {
 	color: #C12;
-}
-
-hr {
-color: #c12;
 }
