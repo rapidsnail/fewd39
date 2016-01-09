@@ -1,0 +1,11 @@
+h1 {
+color: #c12;
+}
+
+.col-md-1, .col-md-4, .col-md-6, .col-md-8 {
+border: 1px solid black;
+background-color: #CCCCFF;
+margin-bottom: 10px;
+
+
+}

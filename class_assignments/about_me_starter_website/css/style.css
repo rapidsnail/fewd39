@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Lato  );
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	font-family: Lato, sans-serif;
+	margin:0;
+	margin-bottom:40px;
+}
+
+h2 {
+	margin:0;
+}
+
+.txt-center {
+	text-align:center;
+}
+
+.margin-top-20 {
+	margin-top:20px;
+}
+
+.banner {
+	background:url(../img/background.jpg) no-repeat;
+	background-size:cover;
+	width:100%;
+	position:relative;
+	background-attachment: fixed;
+}
+
+.fixed-top {
+	font-family: Lobster, sans-serif;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.navbar {
+	width:100%;
+	height:60px;
+	background-color:rgba(0,0,0,0.5);
+	z-index:9999;
+	background-attachment: fixed;
+
+}
+
+
+.navbar-brand {
+	color:#FAFAFA;
+	line-height:60px;
+	margin-left:20px;
+	font-weight:700;
+	font-style:italic;
+	font-size:30px;
+}
+
+.container {
+	width:100%;
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+.user-info-container {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.col-6 {
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+	padding:0 10px;
+}
+
+/*what do you need to add here to make the columns line up next to each other and also take up 1/3 of the width each
+*/
+.col-4 {
+	box-sizing:border-box;
+	padding:0 10px;
+	width: 30%;
+	float: left;
+
+}
+
+
+
+.headshot img {
+	width:70%;
+	border-radius:100%;
+	display:block;
+	border:#CCC 4px solid;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.user-info-text {
+	border-radius:5px;
+	padding:15px;
+	margin-top:20px;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.fixed-top {
+	background-attachment: fixed;
+}
+
+.margin-top-50 {
+	margin-top:50px;
+}
+
+.hero-icon {
+	font-size:100px;
+}
+
+
+/*add the appropriate class here so that when you hover the icons visually change*/
+/*.container margin-top-50
+{
+
+	transition-property: all;
+}*/
+
+.hero-text {
+	font-size:1.2em;
+}
+
+.banner .col-6 .user-info-text p {
+	color: #FFFFFF;
+}
+
+h2 {
+color: #FFFFFF;
+}
+
+.hero-icon i:hover {
+	color:#06C;
+	cursor:pointer;
+}
